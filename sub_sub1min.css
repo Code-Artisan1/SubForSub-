@@ -1,0 +1,17 @@
+.code {
+    font-size: 27px;
+    color: black;
+    margin-top: 100px ;
+    margin-right: 575px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.agree {
+    text-decoration: underline;
+    color: yellow;
+    border: solid darkred;
+    border-radius: 30%;
+    background-color: darkred;
+    border-width: 15px;
+    margin-right: 165px ;
+
+}
