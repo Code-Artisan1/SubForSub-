@@ -1,0 +1,23 @@
+
+
+.st, .nd {
+    font-size: 25px;
+    font-family: 'comic sans MS', cursive, sans-serif;
+    border: solid darkred;
+    border-radius: 30%;
+    padding: 20px;
+    background-color: darkred;
+    color: yellow;
+
+
+}.st_nd {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 275px;
+
+
+}
+
+.nd {
+    margin-left: 20px;
+}
