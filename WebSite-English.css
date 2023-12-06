@@ -6,7 +6,7 @@
 
 }
 .st, .nd {
-    font-size: 125%;
+    font-size: 30px;
     font-family: 'comic sans MS', cursive, sans-serif;
     border: solid darkred;
     border-radius: 30%;
@@ -17,8 +17,8 @@
 }
 .st_nd {
     display: flex;
-        margin-top:10% ;
-    margin-left: 20%;
+    margin-top: 250px;
+    margin-left: 450px;
 
 }
 .nd {
@@ -128,4 +128,4 @@ li a:hover  {
         transform: translateY(0);
         opacity: 1;
     }
-}
+   }
