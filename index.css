@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+}
+
+@media only screen and (min-width: 601px) {
+  /* Styles for larger screens (laptops, desktops, etc.) */
+}
+
 .st, .nd {
     font-size: 30px;
     font-family: 'comic sans MS', cursive, sans-serif;
