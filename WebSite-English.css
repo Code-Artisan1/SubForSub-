@@ -7,29 +7,6 @@
 }
 
 
-.st, .nd {
-    font-size: 30px;
-    font-family: 'comic sans MS', cursive, sans-serif;
-    border: solid darkred;
-    border-radius: 30%;
-    padding: 20px;
-    background-color: darkred;
-    color: yellow;
-
-}
-.st_nd {
-    display: flex;
-    margin-top: 250px;
-    margin-left: 450px;
-
-}
-.nd {
-    margin-left: 100px;
-}
-
-
-/*Language*/
-
 :root {
 
     --primary-color: #52489C;
@@ -44,25 +21,27 @@ body {
 .container {
     padding: 0 8.4rem;
 
-
 }
 
-
+.img-w {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
 
 header {
     box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
     background: #fff;
     position: sticky;
     top: 0;
-
-
+    margin-left: 105px;
+    margin-right: 105px;
 }
 .page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-
 
 }
 
@@ -82,8 +61,6 @@ ul {
     background-color: transparent;
     overflow: hidden;
     list-style-type: none;
-    margin-right: 490px;
-
 }
 
 li a {
@@ -91,7 +68,7 @@ li a {
     padding: .3rem 1rem;
     color: #000;
     text-decoration: none;
-    font-size:25px;
+    font-size: 1.05rem;
     font-weight: 600;
     letter-spacing: .7px;
     border-radius: 36px;
@@ -106,11 +83,32 @@ li a.active,
 li a:hover  {
     color: var(--primary-color);
 }
-.English {
-    margin-left: 25px;
-}
 
-@keyframes leftSideAni {
+
+
+
+
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #000000;
+  }
+
+
+  
+
+  @keyframes leftSideAni {
     0% {
         transform: translateX(-100px);
         opacity: 0;
@@ -131,4 +129,27 @@ li a:hover  {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+
+
+
+
+.container1 {
+    display: block;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.stc, .st {
+    font-size: 50px;
+    color: yellow;
+    text-decoration: underline;
+    background-color: darkred;
+    border: solid darkred;
+    border-radius: 30%;
+    padding:1% ;
+}
+.stdiv {
+    margin-left: 9%;
+    margin-top: 50px;
 }
