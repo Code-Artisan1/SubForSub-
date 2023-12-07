@@ -10,9 +10,9 @@ body {
     background-color: #ffffff;
   }
 .container {
-    padding: 0 8.4rem;
-
+    padding: 0 5%; /* Adjust the percentage based on your design */
 }
+
 
 .img-w {
     width: 100%;
