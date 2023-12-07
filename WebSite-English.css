@@ -25,8 +25,8 @@ header {
     background: #fff;
     position: sticky;
     top: 0;
-    margin-left: 105px;
-    margin-right: 105px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .page-header {
     display: flex;
